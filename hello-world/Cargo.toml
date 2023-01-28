@@ -1,5 +1,5 @@
 [package]
-name = "rust_go_with_it"
+name = "hello-world"
 version = "0.1.0"
 edition = "2021"
 
