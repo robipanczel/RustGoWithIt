@@ -14,6 +14,9 @@ fn change_my_struct(my_struct: &mut MyStruct) {
 fn main() {
     let mut my_struct = MyStruct { num: 10 };
     let my_struct_ref = &my_struct;
+    let a = MyStruct {num: 10};
+    // let b = a;
+    println!("{:?}", a);
     print_my_struct(&my_struct);
     // change_my_struct(&mut my_struct);
     print_my_struct(my_struct_ref);
